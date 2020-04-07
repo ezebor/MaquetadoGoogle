@@ -1,5 +1,5 @@
 import React from 'react';
-import HeaderOption from './HeaderOption';
+import MenuOption from './MenuOption';
 import UserIcon from './UserIcon';
 import MoreApps from './MoreApps';
 
@@ -7,15 +7,11 @@ function Header() {
   return (
     <header class='header'>
       <ul class='options'>
-        <HeaderOption
-          aClassName='gmail'
-          url='https://google.com'
-          name='Gmail'
-        />
-        <HeaderOption
+        <MenuOption aClassName='gmail' url='https://google.com' text='Gmail' />
+        <MenuOption
           aClassName='images'
           url='https://google.com'
-          name='Images'
+          text='Images'
         />
         <MoreApps />
         <UserIcon letter='E' />

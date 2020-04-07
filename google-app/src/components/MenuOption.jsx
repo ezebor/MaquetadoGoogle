@@ -1,13 +1,13 @@
 import React from 'react';
 
-function HeaderOption({ aClassName, name, url }) {
+function MenuOption({ aClassName, text, url }) {
   return (
     <li className={aClassName}>
       <a href={url} target='_blank' rel='noopener noreferrer'>
-        {name}
+        {text}
       </a>
     </li>
   );
 }
 
-export default HeaderOption;
+export default MenuOption;
