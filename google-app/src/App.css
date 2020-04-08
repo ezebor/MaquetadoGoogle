@@ -21,22 +21,14 @@ ul {
   justify-content: flex-end;
 }
 
-.header {
-  display: flex;
-  justify-content: flex-end;
-  padding-right: 50px;
-  flex: 0 0 auto;
-}
-
 li a:link,
 li a:visited {
   text-decoration: none;
   color: black;
 }
 
-.header .options li a:hover {
-  text-decoration: underline;
-  color: gray;
+.header {
+  background-color: white;
 }
 
 .user {
@@ -51,17 +43,23 @@ li a:visited {
   border-radius: 50%;
 }
 
-.gmail,
-.images {
-  padding-right: 25px;
-  display: flex;
-  align-items: center;
+.header-link {
+  text-decoration: none;
+  color: black;
+  padding-right: 10px;
 }
 
-.apps {
-  display: flex;
-  align-items: center;
-  padding-right: 25px;
+.header-link:hover {
+  text-decoration: underline;
+  color: gray;
+}
+
+.moreApps {
+  padding-right: 10px;
+}
+
+.hola {
+  background-color: red;
 }
 
 .appsMenu {
@@ -176,9 +174,8 @@ li a:visited {
 
 .footer {
   background-color: #f5f5f5;
-  display: flex;
-  flex-direction: column;
-  flex: 0 0 auto;
+  position: absolute;
+  bottom: 0;
 }
 
 .country {

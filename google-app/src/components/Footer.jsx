@@ -3,7 +3,7 @@ import MenuOption from './MenuOption';
 
 function Footer() {
   return (
-    <footer className='footer'>
+    <div>
       <div className='country'>Argentina</div>
       <div className='terms'>
         <div className='business'>
@@ -43,7 +43,7 @@ function Footer() {
           </ul>
         </div>
       </div>
-    </footer>
+    </div>
   );
 }
 
